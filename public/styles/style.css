@@ -1,0 +1,67 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+}
+
+.main{
+    display: block;
+    background-image: url('/image/goldeneye-diner.jpeg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.main-menu{
+    width: 100vw;
+}
+
+.works{
+    background-color: #151b1c;
+}
+
+.main-menu tr{
+    display: flex;
+    height: 30px;
+    padding-top:10px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    font-size: 2vw;
+    background-color:#7d8485;
+}
+
+.main-menu a{
+    color:white;
+    text-decoration: none;
+}
+
+h5 {
+    display: flex;
+    color: white;
+    font-size: 5vw;
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+h6 {
+    display: flex;
+    color: white;
+    font-size: 2.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.table > thead{
+    font-size: 3vw;
+}
