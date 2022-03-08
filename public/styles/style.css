@@ -65,3 +65,40 @@ h6 {
 .table > thead{
     font-size: 3vw;
 }
+
+/* Ioannis css */
+
+h1 {
+    font-size: 3rem;
+    color: grey;
+}
+.about {
+    background-image: url('/image/pierce-brosnan.jpeg');
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+}
+p {
+    font-size: 1.4rem;
+}
+.early-life {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50vw;
+}
+h2 {
+    color: grey;
+    font-size: 1.9rem;
+}
+.james-bond {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 40vw;
+}
